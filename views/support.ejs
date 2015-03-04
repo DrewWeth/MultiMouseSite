@@ -1,0 +1,189 @@
+
+
+<%- include head.ejs %>
+<body>
+  <%- include support-nav.ejs %>
+
+
+  <div class="container">
+
+    <div class="row support-nav-buffer">
+      <div class="col-md-3">
+        <h3>Select Reason For Contact</h3>
+        <div id="content">
+          <ul id="tabs" class="nav nav-pills nav-stacked" data-tabs="tabs">
+            <li class="active"><a href="#faq" data-toggle="tab">Frequently Asked Questions</a></li>
+            <li><a href="#bug" data-toggle="tab">Report a Bug</a></li>
+            <li><a href="#press" data-toggle="tab">Press Inquiry</a></li>
+            <li><a href="#other" data-toggle="tab">Other</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-9">
+        <div id="my-tab-content" class="tab-content">
+          <div class="tab-pane active" id="faq">
+            <p class="question">Can I set my own toggle button?</p>
+            <p class="answer">Yes! Run the MultiMouse application, under Preferences <code>Command + ,</code> you can reset the toggle button under the Settings tab</p>
+
+            <p class="question">Next Question</p>
+            <p class="answer">Next answer</p>
+
+            <p class="question">Next Question</p>
+            <p class="answer">Next answer</p>
+
+            <p class="question">Next Question</p>
+            <p class="answer">Next answer</p>
+          </div>
+          <div class="tab-pane" id="bug">
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-10">
+
+                <p class="question">
+                  REPORT A BUG
+                </p>
+              </div>
+            </div>
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label for="system" class="col-sm-2 control-label">Operating System</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="os" placeholder="OS">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="whathappened" class="col-sm-2 control-label">Tell us what happened</label>
+                <div class="col-sm-10">
+                  <textarea class="form-control" id="" placeholder="Provide as much detail as possible, please"></textarea>
+                </div>
+              </div>
+              <div class="col-sm-2"></div>
+              <div class="col-sm-10"><hr><center><div class="info-text">OPTIONAL</div></center></div>
+
+              <div class="form-group">
+                <label for="whathappened" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="textarea" class="form-control" id="" placeholder="Your email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Your name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="" placeholder="Hi">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> Email me back with results
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <div class="info-text">
+                    Thanks for taking your time to improve the MultiMouse experience for everyone.
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="tab-pane" id="press">
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-10">
+
+                <p class="question">
+                  PRESS INQUIRY
+                </p>
+              </div>
+            </div>
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label for="system" class="col-sm-2 control-label">Your name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="os" placeholder="Jane Doe">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="system" class="col-sm-2 control-label">Your email</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="os" placeholder="jane.doe@mail.com">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="system" class="col-sm-2 control-label">Your media publication</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="os" placeholder="AP">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="whathappened" class="col-sm-2 control-label">Brief story description</label>
+                <div class="col-sm-10">
+                  <textarea class="form-control" id="" placeholder="In general, what would you like to write about?"></textarea>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <div class="info-text">
+                    Thanks for considering us for a story, we'll get back with you soon!
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="tab-pane" id="other">
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-10">
+
+                <p class="question">
+                  OTHER
+                </p>
+              </div>
+            </div>
+
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label for="system" class="col-sm-2 control-label">Your name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="os" placeholder="Jane Doe">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="whathappened" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="" placeholder="jane.doe@gmail.com"></input>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="whathappened" class="col-sm-2 control-label">Request</label>
+                <div class="col-sm-10">
+                  <textarea type="email" class="form-control" id="" placeholder="What's up?"></textarea>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                  <div class="info-text">
+                    Thanks for the feedback. We'll get back with you ASAP.
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<%- include footer.ejs %>

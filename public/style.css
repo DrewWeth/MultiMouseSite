@@ -1,0 +1,134 @@
+.support-nav-buffer{
+  margin-top:40px;
+}
+
+.support-nav-padding{
+  padding-bottom:10px;
+}
+
+.nav-padding a{
+  color:#fff;
+}
+
+.nav-padding a:hover{
+  text-decoration: none;
+  color:#eee;
+}
+
+.info-text{
+  color:#aaa;
+  margin-bottom:10px;
+}
+
+.nav-padding p{
+  color:#eee;
+}
+
+.bg-dark-gray{
+  background: #bbb;
+}
+
+.bg-forest-green{
+  background: #17A360;
+}
+
+.bg-dark-blue{
+  background:#334257;
+}
+
+p.question{
+  color:#337ab7;
+  font-size:1.3em;
+}
+
+
+
+.answer{
+  margin-bottom:30px;
+}
+
+.bg-light-gray{
+  background: #758191;
+}
+
+.navbar-default{
+  background-image:none;
+  background-color:transparent;
+  border:none;
+  box-shadow:none;
+  margin-bottom:70px;
+
+}
+.navbar-default .navbar-nav>li>a{
+  color:#fff;
+  font-size:1.3em;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color:#B0B0B0;
+
+}
+.navbar-default .navbar-brand{
+  color:#fff;
+  font-weight:300;
+  font-size:2.7em;
+}
+.video{
+  /*background-color: #D1B58E;*/
+
+  /*height:600px;*/
+}
+.large-blue{
+  background-color: #94DBDF;
+
+  /*height:400px;*/
+}
+.blue-comments{
+  padding-top:20px;
+  color:#3c6c6e;
+}
+.white-header{
+  color:#fff;
+  display: block;
+  margin:0;
+  font-size:4.3rem;
+  line-height:1em;
+  font-weight:400;
+}
+.large-red{
+  /*background-color: #FD6CA3;*/
+    background-color: #d0b58e;
+  /*height:300px;*/
+}
+
+.text-padding{
+  padding:30px;
+}
+
+.red-comments{
+  padding-top:20px;
+  /*color:#930000;*/
+  color: #774905;
+}
+.center-y{
+  /*margin-top:250px;*/
+}
+
+video#bgvid {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(polina.jpg) no-repeat;
+background-size: cover;
+-webkit-filter: brightness(1.3);
+
+}
+
+#index p{
+  font-size:1.2em;
+  line-height:2em;
+  font-family:'Whitney SSm A','Whitney SSm B',sans-serif;
+}
+#index p.header{
+  color:#B0B0B0;
+  margin-bottom:20px;
+}

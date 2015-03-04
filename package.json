@@ -1,0 +1,8 @@
+{
+  "name": "multimouse",
+  "version": "0.0.1",
+  "description": "multimouse app site",
+  "dependencies": {
+    "express": "^4.9.0"
+  }
+}

@@ -1,4 +1,7 @@
 <%- include head.ejs %>
+
+
+
   <body id="index">
     <div class="video">
       <video autoplay poster="polina.jpg" id="bgvid">
@@ -6,7 +9,14 @@
       </video>
         <div class="dark">
         <%- include nav.ejs %>
+
         <div class="container">
+          <% if(typeof script !== 'undefined' && script !== null){ %>
+            <div class="alert alert-success alert-dismissible" role="alert">
+              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <%= script %>
+            </div>
+          <% } %>
           <div class="row text-padding" style="">
             <div class="col-sm-6">
               <img id="full-img" class="img-responsive full-width" src="http://i.imgur.com/dfQOcob.png"></img>

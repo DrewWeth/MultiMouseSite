@@ -2,7 +2,13 @@
   "name": "multimouse",
   "version": "0.0.1",
   "description": "multimouse app site",
+  "main":"app.js",
   "dependencies": {
-    "express": "^4.9.0"
+    "express": "^4.9.0",
+    "mongodb": "~2.0",
+    "body-parser": "1.8",
+    "mongoose": "*"
+
+
   }
 }

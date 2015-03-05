@@ -55,17 +55,17 @@
                 </p>
               </div>
             </div>
-            <form class="form-horizontal">
+            <form class="form-horizontal" method="post" action="/bug-form">
               <div class="form-group">
-                <label for="system" class="col-sm-2 control-label">Operating System</label>
+                <label for="system" class="col-sm-2 control-label">Operating System Version</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="os" placeholder="OS">
+                  <input type="text" name="form[os]" class="form-control" id="os" placeholder="MAC OSX 10.10.1 Yosemite">
                 </div>
               </div>
               <div class="form-group">
                 <label for="whathappened" class="col-sm-2 control-label">Tell us what happened</label>
                 <div class="col-sm-10">
-                  <textarea class="form-control" id="" placeholder="Provide as much detail as possible, please"></textarea>
+                  <textarea class="form-control" name="form[context]" id="" placeholder="Provide as much detail as possible, please"></textarea>
                 </div>
               </div>
               <div class="col-sm-2"></div>
@@ -74,13 +74,13 @@
               <div class="form-group">
                 <label for="whathappened" class="col-sm-2 control-label">Email</label>
                 <div class="col-sm-10">
-                  <input type="textarea" class="form-control" id="" placeholder="Your email">
+                  <input type="email" name="form[email]" class="form-control" id="" placeholder="Your email">
                 </div>
               </div>
               <div class="form-group">
                 <label for="name" class="col-sm-2 control-label">Your name</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="" placeholder="Hi">
+                  <input type="text" name="form[name]" class="form-control" id="" placeholder="Hi">
                 </div>
               </div>
               <div class="form-group">
@@ -112,29 +112,29 @@
                 </p>
               </div>
             </div>
-            <form class="form-horizontal">
+            <form class="form-horizontal" method="post" action="/press-form">
               <div class="form-group">
                 <label for="system" class="col-sm-2 control-label">Your name</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="os" placeholder="Jane Doe">
+                  <input type="text" name="form[name]" class="form-control" id="os" placeholder="Jane Doe">
                 </div>
               </div>
               <div class="form-group">
                 <label for="system" class="col-sm-2 control-label">Your email</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="os" placeholder="jane.doe@mail.com">
+                  <input type="email" name="form[email]" class="form-control" id="os" placeholder="jane.doe@mail.com">
                 </div>
               </div>
               <div class="form-group">
                 <label for="system" class="col-sm-2 control-label">Your media publication</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="os" placeholder="AP">
+                  <input type="text" name="form[publication]" class="form-control" id="os" placeholder="AP">
                 </div>
               </div>
               <div class="form-group">
                 <label for="whathappened" class="col-sm-2 control-label">Brief story description</label>
                 <div class="col-sm-10">
-                  <textarea class="form-control" id="" placeholder="In general, what would you like to write about?"></textarea>
+                  <textarea class="form-control" name="form[description]" id="" placeholder="In general, what would you like to write about?"></textarea>
                 </div>
               </div>
 
@@ -159,23 +159,23 @@
               </div>
             </div>
 
-            <form class="form-horizontal">
+            <form class="form-horizontal" method="post" action="/other-form">
               <div class="form-group">
                 <label for="system" class="col-sm-2 control-label">Your name</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="os" placeholder="Jane Doe">
+                  <input type="text" name="form[name]" class="form-control" id="os" placeholder="Jane Doe">
                 </div>
               </div>
               <div class="form-group">
                 <label for="whathappened" class="col-sm-2 control-label">Email</label>
                 <div class="col-sm-10">
-                  <input type="email" class="form-control" id="" placeholder="jane.doe@gmail.com"></input>
+                  <input type="email" name="form[email]" class="form-control" id="" placeholder="jane.doe@gmail.com"></input>
                 </div>
               </div>
               <div class="form-group">
                 <label for="whathappened" class="col-sm-2 control-label">Request</label>
                 <div class="col-sm-10">
-                  <textarea type="email" class="form-control" id="" placeholder="What's up?"></textarea>
+                  <textarea type="text" name="form[request]" class="form-control" id="" placeholder="What's up?"></textarea>
                 </div>
               </div>
               <div class="form-group">

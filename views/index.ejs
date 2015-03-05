@@ -2,22 +2,25 @@
   <body id="index">
     <div class="video">
       <video autoplay poster="polina.jpg" id="bgvid">
-        <source src="https://s3-us-west-2.amazonaws.com/multimouse/video.mp4" type="video/mp4">
+        <!-- <source src="https://s3-us-west-2.amazonaws.com/multimouse/video.mp4" type="video/mp4"> -->
       </video>
-
-      <%- include nav.ejs %>
-      <div class="row text-padding">
-        <div class="col-sm-6">
-            <img class="img img-responsive" src="http://i.imgur.com/8yFfzyn.png">
-        </div>
-        <div class="col-sm-6">
-            <div class="white-header">About</div>
-            <p class="header">
-              Why Only Use One Cursor? Double Your Productivity with MultiMouse.
-            </p>
-            <p>
-              <a href="http://drewweth.com">Download On MacStore</a>
-            </p>
+        <div class="dark">
+        <%- include nav.ejs %>
+        <div class="container">
+          <div class="row text-padding" style="">
+            <div class="col-sm-6">
+              <img id="full-img" class="img-responsive full-width" src="http://i.imgur.com/dfQOcob.png"></img>
+            </div>
+            <div class="col-sm-6">
+                <div class="white-header">Harness the Power of Multiple Cursors</div>
+                <p class="header">
+                  a Mac application that puts two cursors on your screen that you can toggle between seemlessly.
+                </p>
+                <p>
+                  <a href="http://drewweth.com"><img class="app-store-img" src="http://livelylogic.com/images/app-store-button.png"></img></a>
+                </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -26,19 +29,24 @@
     <div class="large-blue">
       <div class="container">
         <div class="row text-padding">
-          <div class="col-sm-6">
-            <div class="center-y">
+          <div class="col-sm-7">
+            <div class="center-y" style="margin-top:60px">
 
-                <div class="white-header">Amazing Paired Programming!</div>
+                <div class="white-header">Amazing for Paired Programming!</div>
                 <div class="blue-comments">
                   <p>
-                    Never ask for the mouse again. Take control.
+                    Ever ask your programming partner for the mouse? Oh course you have. With MultiMouse you'll never ask for the mouse again. <span class="pop-pp">Plug in a second mouse</span> and have two cursors on the screen! <span class="pop-pp">Take control</span> of your programming and be your most efficient!
                   </p>
                 </div>
             </div>
           </div>
-          <div class="col-sm-6">
-            <img class="img img-responsive" src="http://i.imgur.com/utwxigh.png">
+          <div class="col-sm-5">
+            <center class="large" style="margin-top:60px">
+            <!-- <img class="img img-responsive" src="http://i.imgur.com/utwxigh.png"> -->
+              <i class="fa fa-user"></i>
+              <i class="fa fa-desktop"></i>
+              <i class="fa fa-user"></i>
+            </center>
           </div>
         </div>
       </div>
@@ -46,18 +54,23 @@
     <div class="large-red">
       <div class="container">
         <div class="row text-padding">
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <div class="center-y">
-              <img class="img img-responsive" src="http://i.imgur.com/utwxigh.png">
+              <center class="large" style="margin-top:60px">
+              <!-- <img class="img img-responsive" src="http://i.imgur.com/utwxigh.png"> -->
+                <i class="fa fa-desktop"></i>
+                <i class="fa fa-user"></i>
+                <i class="fa fa-desktop"></i>
+              </center>
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-7" style="margin-top:60px">
               <div class="white-header">
-                Seemless Duel Screening!
+                Seemless Duel Screening Experience!
               </div>
               <div class="red-comments">
                 <p>
-                  Never have to move your cursor through the awkward space between monitors.
+                  When you have two cursors on the screen you never have to move your cursor through the awkward space between monitors. <span class="pop-duel">Simply toggle</span> the activation button on your mouse and <span class="pop-duel">switch cursors</span> between different screens without fretting.
                 </p>
               </div>
           </div>

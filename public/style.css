@@ -52,6 +52,10 @@ button.collapsed{
   padding-top:40px;
   padding-bottom:30px;
 }
+
+.margin-top{
+  margin-top:40px;
+}
 .min-height{
   min-height:300px;
 }
@@ -179,9 +183,7 @@ p.question{
   /*color:#930000;*/
   color: #774905;
 }
-.center-y{
-  /*margin-top:250px;*/
-}
+
 
 #about p{
   font-family: 'Open Sans', sans-serif;
